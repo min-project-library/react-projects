@@ -1,0 +1,43 @@
+.contents{
+    padding: 20px 10px;
+  height: 300px;
+  overflow: break;
+  background-color: #fff;
+}
+
+.tabs{
+    display: inline-flex;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    color:#fff;
+    background: #a998af;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.container{
+    padding: 8px;
+}
+
+.tabsWrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.active{
+    background:rgb(63, 194, 211);
+}
+
+.inactive{
+ 
+}
+
+.contents div div{
+    font-size: 20px;
+    padding: 10px;
+}
+
+

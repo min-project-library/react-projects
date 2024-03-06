@@ -16,6 +16,7 @@ function Home() {
           <div><Link to="/imageSlider2">Image Slider</Link></div>
           <div><Link to="/lightDark">Light Dark</Link></div>
           <div><Link to="/scrollIndicator">Scroll Indicator</Link></div>
+          <div><Link to="/todoList">Todo List App</Link></div>
 
       </div>
     );
