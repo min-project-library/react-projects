@@ -1,0 +1,92 @@
+
+.container h1{
+    font-size: 50px;
+
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #27003f, #550071, #002b5c);
+    color: white;
+    row-gap: 1px;
+    overflow: hidden;
+
+}
+
+.inputForm{
+    padding: 10px;
+    margin: 10px;
+}
+
+.input{
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.btnSubmit{
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust color as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+
+.btnSubmit:hover{
+    background-color: #00b368;
+}
+
+.imgStyle{
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid rgb(47, 206, 255) ;
+}
+
+.userContainer{
+    width: 500px;
+    padding: 30px;
+    border: 2px solid ;
+    border-radius: 50%;
+    border-image: linear-gradient(red, green,blue,yellow) 2;
+    
+    
+}
+
+.profile h3{
+    font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile a{
+    color: #007bff; /* Blue color */
+  text-decoration: none;
+}
+
+.profile a:hover{
+    text-decoration: underline;
+}
+
+
+.profile p{
+    margin-bottom: 5px;
+  font-size: 16px;
+}
+
+
+.profileInfo p{
+    margin-bottom: 5px;
+  font-size: 16px;
+}

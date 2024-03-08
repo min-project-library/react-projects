@@ -14,14 +14,24 @@ import RandomColor2 from './components/randomColor2/RandomColor2';
 import ImageSlider2 from './components/image-slider2/ImageSlider2';
 import LightDark from './components/light-dark-theme/LightDark';
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
+import TodoList from './components/todo/TodoList';
+import CustomTabs from './components/tabs/CustomTabs';
 import Home from './components/Home';
-
+import Modal from './components/modal/Modal';
+import GithubProfileFinder from './components/githubprofilefinder/GithubProfileFinder';
+import Weather from './components/weather/Weather';
 function App() {
   return (
     <div className="App">
       <Router>
       <Routes>
       <Route path="/" element={<Home />} />
+        <Route path="/weather" element={<Weather/>}/>
+        <Route path="/githubprofilefinder" element={<GithubProfileFinder/>}/>
+        
+        <Route path="/todoList" element={<TodoList/>}/>
+        <Route path="/customModal" element={<Modal/>}/>
+        <Route path="/customTabs" element={<CustomTabs/>}/>
         <Route path="/accordian" element={<AccordianList />} />
         <Route path="/accordian2" element={<AccordianList2 />} />
         <Route path="/randomColor" element={<RandomColor />} />
@@ -35,8 +45,13 @@ function App() {
         <Route path="/imageSlider2" element={<ImageSlider2 />} />
         <Route path="/lightDark" element={<LightDark />} />
         <Route path="/scrollIndicator" element={<ScrollIndicator />} />
+        
       </Routes>
     </Router>
+      {/* <CustomTabs/> */}
+      {/* <Modal/> */}
+      {/* <GithubProfileFinder/> */}
+      
     </div>
     
   );

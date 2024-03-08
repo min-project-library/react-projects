@@ -8,7 +8,7 @@ function ModalDisplay(props){
             <div className={styles.modalContent}>
                 <h2>Min's Custom Modal</h2>
                 <p>This is Min's custom modal</p>
-                <button className={styles.modalButton} onClick={props.toggleModal}>CLOSE</button>
+                <button className={styles.modalButton} onClick={props.toggleModal}>x</button>
             </div>
         </div>
     )

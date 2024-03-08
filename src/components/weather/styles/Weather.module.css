@@ -1,0 +1,73 @@
+.weatherBackground {
+ 
+    background: linear-gradient(to left, #FFCE00, #EC008C, #00B4DB);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    background: linear-gradient(to left, #FFCE00, #EC008C, #00B4DB);
+    opacity: 0.9;
+    height: 650px;
+    
+}
+
+
+
+/* Individual Components */
+.component {
+    
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+/* Text Style */
+.text {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.doodleInput {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin:10px;
+    font-size: 25px;
+    color: red;
+}
+
+
+
+
+/* Button */
+.doodleBtn {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    
+}
+
+
+
+.doodleBtn:hover {
+    background-color: #ccc;
+}

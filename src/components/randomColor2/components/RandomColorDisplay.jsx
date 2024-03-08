@@ -4,7 +4,9 @@ function RandomColorDisplay(props){
     const header = props.type == "rgb"? <h1>RGB</h1> : <h1>HEX</h1>
     const styles = {
         minHeight:"100vh",
-        backgroundColor:props.colorCode
+        backgroundColor:props.colorCode,
+        overflow:"hidden"
+        
     }
     return(
         <div style={styles}>
