@@ -60,7 +60,7 @@ function ScrollIndicatorContainer(props){
         return <div>Error! {errorMsg}</div>
     }
 
-    const productsLists = products && products.length ? products.map((item,index)=><p>{item.title}</p>):null;
+    const productsLists = products && products.length ? products.map((item,index)=><p className={styles.productTexts} key={index}>{item.title}</p>):null;
     return(
         <div>
             <div className={styles.container}>

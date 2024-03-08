@@ -8,6 +8,7 @@ function Home() {
           {/* <div className={styles.linkContainer}><Link to="/accordian">Accordian</Link></div> */}
           <div className={styles.linkContainer}><Link to="/weather">Current Weather App</Link></div>
           <div className={styles.linkContainer}><Link to="/githubprofilefinder">Github Profile Finder</Link></div>
+          <div className={styles.linkContainer}><Link to="/myerscraper">Myer Search Scraper</Link></div>
           <div className={styles.linkContainer}><Link to="/todoList">Todo List App</Link></div>
           <div className={styles.linkContainer}><Link to="/customModal">Custom Modal Component</Link></div>
           <div className={styles.linkContainer}><Link to="/customTabs">Custom Tabs Component</Link></div>

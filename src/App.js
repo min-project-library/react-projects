@@ -20,13 +20,16 @@ import Home from './components/Home';
 import Modal from './components/modal/Modal';
 import GithubProfileFinder from './components/githubprofilefinder/GithubProfileFinder';
 import Weather from './components/weather/Weather';
+import MyerScraper from './components/myerscraper/MyerScraper';
 function App() {
   return (
     <div className="App">
       <Router>
       <Routes>
       <Route path="/" element={<Home />} />
+
         <Route path="/weather" element={<Weather/>}/>
+        <Route path="/myerscraper" element = {<MyerScraper/>}/>
         <Route path="/githubprofilefinder" element={<GithubProfileFinder/>}/>
         
         <Route path="/todoList" element={<TodoList/>}/>
@@ -48,9 +51,7 @@ function App() {
         
       </Routes>
     </Router>
-      {/* <CustomTabs/> */}
-      {/* <Modal/> */}
-      {/* <GithubProfileFinder/> */}
+   
       
     </div>
     
